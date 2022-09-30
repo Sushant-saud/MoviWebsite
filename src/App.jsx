@@ -7,8 +7,8 @@ function App() {
   return (
    <BrowserRouter>
    <Routes>
-    <Route path="/" element={<Home/>}/>
-    <Route path="movie/:id" element={<SingleMovie/>}/>
+    <Route path="/MoviWebsite" element={<Home/>}/>
+    <Route path="MoviWebsit/movie/:id" element={<SingleMovie/>}/>
     <Route path="*" element={<Error/>}/>
    </Routes>
    </BrowserRouter>
